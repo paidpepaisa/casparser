@@ -42,6 +42,11 @@ dev = [
     "pytest-cov>=6.0,<8",
     "pre-commit>=4.0.0,<5",
 ]
+server = [
+    "fastapi>=0.100.0,<1",
+    "uvicorn[standard]>=0.23.0,<1",
+    "python-multipart>=0.0.9,<1",
+]
 
 [tool.hatch.build.targets.sdist]
 include = ["casparser/*"]
